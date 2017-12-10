@@ -60,7 +60,7 @@ public class PruebaDataBase {
                 System.out.println("ingresa precio");
                 precio = leer.nextInt();
 
-                db.insertar(marca, modelo, material, color, precio, tipoCalzado, nombre);
+                db.insertar(marca, modelo, material, color, precio, tipoCalzado);
                 break;
             case 3:
                 leer.nextLine();

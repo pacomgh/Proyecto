@@ -72,8 +72,7 @@ public class DataBaseStorage implements Storage {
     @Override
     //considerar cambiar el id a int
     public void insertar(String marca, String modelo, String material, 
-                            String color, float precio, String tipo,
-                            String nombre) throws SQLException{
+                            String color, float precio, String tipo) throws SQLException{
         
         c = DriverManager.getConnection(urlDb);
         st = c.createStatement();
